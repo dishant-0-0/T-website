@@ -1,0 +1,91 @@
+body{
+    font-size: 35px;
+    color: #fff;
+    background-color:cadetblue;
+    font-family: 'Amatic SC', san-serif;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+/* navigation bar */
+
+#header-nav{
+    font: bold;
+    background-color:rgb(255, 100, 100);
+    border-radius: 0;
+    border: 0;
+}
+
+#name{
+    font-size: 2.5em;
+    padding-top: 0.1em;
+    color:whitesmoke;
+}
+
+#mybutton{
+    color:whitesmoke;
+    border-color:rgb(245, 245, 245);
+}
+
+li.nav-item{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0);
+    margin: 5px;
+    background-color: rgba(255,255,255,1);
+}
+
+div.d-block.d-sm-none{
+    color: black;
+}
+
+@media(min-width: 576px){
+    li.nav-item{
+        opacity: 0;
+    }
+}
+
+/* navigation bar ends*/
+
+
+/* heading of the page */
+
+#heading-after-nav{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-top: 40px;
+    color: rgb(178,34,34);
+}
+
+/* heading of the page ends*/
+
+
+/* Main content*/
+
+#main-pizza{
+    height: 2000px;
+}
+
+p.pizza{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.pizza-details{
+    text-align: justify;
+    font-size: 0.7em;
+    padding: 1em;
+}
+
+span.pizza-cols{
+    margin-top: 2em;
+}
+
+div.pizza-div{
+    border-radius: 25px;
+    height: 1000px;
+    overflow: hidden;
+    background-color: rgb(178,34,34);
+}
+
+/* Main content ends*/
